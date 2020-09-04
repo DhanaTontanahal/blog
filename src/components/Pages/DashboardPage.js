@@ -4,7 +4,6 @@ import BlogPostLayout from '../Templates/BlogPostLayout'
 import {data} from '../../data'
 
 function DashboardPage() {
-    // console.log("In dashboard page"+JSON.stringify(data))
    
     const [blogs, setBlogs] = useState([]);
    
