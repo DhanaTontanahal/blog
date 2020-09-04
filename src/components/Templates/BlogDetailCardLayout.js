@@ -24,7 +24,7 @@ export default function BlogDetailCard(props) {
       if (didMountRef.current) {
         setBlogItem(props.blogItem)
       } else didMountRef.current = true
-    });
+    },[props.blogItem]);
  
   return (
     <Card className={classes.root}>
